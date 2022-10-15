@@ -1,0 +1,211 @@
+body{
+	background-image: url("image&souspage/MEEE.png");
+	 background-size:cover; 
+	background-attachment:fixed;
+
+}
+#Imgone{
+	width:200px;
+    position:fixed;
+	top:-10px;	
+ }
+ #Imgsol{
+    position:relative;
+	top:120px;	
+	left:400px;
+ }
+#head{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	font-size:3.5em;
+	text-align:center;
+	position:relative;
+	top:170px;
+}
+#hONE{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	POSITION:absolute;
+	left:650px;
+	font-size:3em;
+}
+#hTWO{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	font-size:1.5em;
+	position:absolute;
+	top:700px;
+	left:420px;
+}
+#hthree{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	font-size:1.5em;
+	position:absolute;
+	top:800px;
+	left:300px;
+	text-align:justify;
+}
+.head{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	font-size:3.5em;
+	text-align:center;
+	position:relative;
+	top:300px;
+}
+.social{
+	position:relative;
+	left:390px;
+	top:400px;
+	margin:0px;
+	padding:50px;
+}
+#Par{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	font-size:1.5em;
+	text-align:center;
+	position:relative;
+	top:170px;
+}
+
+ 
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  margin:0em;
+  padding: 2.5em;
+  color: #dddddd;
+  text-decoration:none;
+  font-size:25px;
+  font-family:arial;
+  text-align:center;
+  text-indent:0;
+  line-height:0.1em;
+  
+}
+ul {
+  position: fixed;
+  top:7em;
+  width: 0%;
+  position:buttom;
+}
+
+
+@keyframes exemple1{
+  from{top:400px;}
+  to{top:0px;}
+}
+@keyframes exemple2{
+  from{top:-290px;}
+  to{top:180px;}
+}
+@keyframes exemple3{
+   from{left:100px;}
+  to{left:800px;}
+}
+
+#anim{
+	width:400px;
+	position:relative;
+	left:950px;
+	top:400px;
+	animation-name:exemple1;
+	animation-duration:15s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite; 
+	animation-direction:Alternate;
+	animation-timing-function:linear;
+}
+#anime{
+	width:100px;
+	position:relative;
+	left:100px;
+	top:-290px;
+	animation-name:exemple2;
+	animation-duration:10s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite; 
+	animation-direction:Normal;
+	animation-timing-function:ease-out;
+}
+
+#animes{
+	width:100px;
+	position:relative;
+	left:100px;
+	top:-500px;
+	animation-name:exemple3;
+	animation-duration:10s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite; 
+	animation-direction:Alternate;
+	animation-timing-function:linear;
+}
+
+#books{
+	position:relative;
+	top:50px;
+	left:490px;
+	width:300px;
+	
+}
+#book{
+	position:relative;
+	top:100px;
+	left:670px;
+	width:300px;
+}
+#p1{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	position:relative;
+	text-align:center;
+}
+#vid{
+	position:relative;
+	left:550px;
+	top:50px;
+}
+#vid1{
+	position:relative;
+	left:-100px;
+	top:550px;
+}
+#pp{
+	color:rgb(247, 249, 254);
+	font-family:arial;
+	position:relative;
+	left:600px;
+	top:40px;
+	font-size:3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
